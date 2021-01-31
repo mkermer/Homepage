@@ -13,12 +13,12 @@ app.use(Express.json());
 //       })
 //   })
 
-// app.use(express.static(__dirname + 'public'));
+app.use(Express.static('public'));
 // Users/a-713/OneDrive/Desktop/TalentGarden/React/Homepage/
 
-app.get('/', function (req, res) {
-    res.send('GET request to homepage')
-  })
+// app.get('/', function (req, res) {
+//     res.send('GET request to homepage')
+//   })
 
 //   app.use(express.static(path.join(__dirname, 'public')));
 
