@@ -1,7 +1,7 @@
 {
   "name": "homepage",
   "version": "1.0.0",
-  "description": "![alt text](https://github.com/mkermer/Homepage/blob/main/Images/Logo.png)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mkermer/Homepage/issues"
   },
-  "homepage": "https://github.com/mkermer/Homepage#readme"
+  "homepage": "https://github.com/mkermer/Homepage#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
