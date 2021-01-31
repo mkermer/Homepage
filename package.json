@@ -1,0 +1,19 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "![alt text](https://github.com/mkermer/Homepage/blob/main/Images/Logo.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkermer/Homepage.git"
+  },
+  "author": "Morgane Kermer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkermer/Homepage/issues"
+  },
+  "homepage": "https://github.com/mkermer/Homepage#readme"
+}
