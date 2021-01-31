@@ -31,4 +31,9 @@ app.use(Express.static('public'));
 
 
 
-http.createServer(app).listen(8000)
+// http.createServer(app).listen(8000)
+
+const PORT = process.env.PORT || 8000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
