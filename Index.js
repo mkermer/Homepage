@@ -17,7 +17,7 @@ app.use(Express.static('public'));
 // Users/a-713/OneDrive/Desktop/TalentGarden/React/Homepage/
 
 app.get('/', function (req, res) {
-    res.sendFile('Index.html')
+    res.sendFile('/Index.html')
   })
 
 //   app.use(express.static(path.join(__dirname, 'public')));
